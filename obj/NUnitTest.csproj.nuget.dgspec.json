@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj": {}
+    "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj": {
+    "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
         "projectName": "NUnitTest",
-        "projectPath": "C:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj",
+        "projectPath": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
         "packagesPath": "C:\\Users\\victor.geraldo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\obj\\",
+        "outputPath": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor.geraldo\\AppData\\Roaming\\NuGet\\NuGet.Config"

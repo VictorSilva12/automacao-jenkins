@@ -25,7 +25,7 @@ namespace NUnitTest
             googleWebdriver = new ChromeDriver(options);//cria objeto utilzando a classe ChromeDriver
             googleWebdriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             googleWebdriver.Manage().Window.Maximize();//faz com que o navegador fique em tela cheia
-            urlBase = "https://pt.wikipedia.org/wiki/COVID-19";
+            urlBase = "https://pt.wikipedia.org/wiki/";
 
         }
         //[OneTimeTearDown]
@@ -48,7 +48,7 @@ namespace NUnitTest
         public void Test1()
         {
             try{
-                googleWebdriver.Navigate().GoToUrl(urlBase);
+                googleWebdriver.Navigate().GoToUrl(urlBase+"COVID-19");
                 IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
                 string stringTitulo = titulo.Text;
                 Assert.AreEqual("COVID-19", stringTitulo);
@@ -59,5 +59,16 @@ namespace NUnitTest
                 Console.WriteLine(e.ToString());
             }
         }      
+        public void Test2(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Nasa", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }

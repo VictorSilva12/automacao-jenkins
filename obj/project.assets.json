@@ -4563,11 +4563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj",
+      "projectUniqueName": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
       "projectName": "NUnitTest",
-      "projectPath": "c:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\NUnitTest.csproj",
+      "projectPath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
       "packagesPath": "C:\\Users\\victor.geraldo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\victor.geraldo\\Documents\\NUnitTest-master\\obj\\",
+      "outputPath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victor.geraldo\\AppData\\Roaming\\NuGet\\NuGet.Config"
