@@ -1,7 +1,6 @@
 pipeline{
     agent any
     stages{
-        stage ('')
         stage ('Build Back-end'){
             steps {
                 sh 'dotnet restore'
