@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7dpr/JqKIVgM4bRatmsPq6oRBtppTKtdkSXan080/hka2CFND3hNGlXClmp63C3jICDYHyipOZDHQjcgX3Yy6w==",
+  "dgSpecHash": "j1TC77/8GRA9TAGDHXlb5mtTRj6V6Mu2PgqFKT4mriJI3uOw/J8Z3XRjhtLI/LWtXENxW7vHZ6DCa4b7qF57Vg==",
   "success": true,
   "projectFilePath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\nunit3testadapter\\3.15.1\\nunit3testadapter.3.15.1.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\victor.geraldo\\.nuget\\packages\\selenium.webdriver.chromedriver\\87.0.4280.8800\\selenium.webdriver.chromedriver.87.0.4280.8800.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
