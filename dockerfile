@@ -5,8 +5,14 @@ FROM jenkins/jenkins:lts
 LABEL maintainer="victor.geraldo@concert.com.br"
 
 # Atualiza a imagem com os pacotes
-RUN sudo apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get upgrade -y
 
-RUN sudo apt-get install -y apt-transport-https && \
-  sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-3.1
+# Altera para superuser 
+USER root
+
+RUN apt-get install -y apt-transport-https && \
+  apt-get update && \
+  apt-get install -y aspnetcore-runtime-3.1
+
+# altera para user jenkins
+USER jenkins
