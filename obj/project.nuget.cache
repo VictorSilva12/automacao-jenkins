@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h/CTu1SasVXOHv2czlXPccsmlnVq/7tTi4cyeTfoUcmy9ACTjflv4hV85p9Jcaoyl3DYtulAIuR063L1I/iVEg==",
+  "dgSpecHash": "7dpr/JqKIVgM4bRatmsPq6oRBtppTKtdkSXan080/hka2CFND3hNGlXClmp63C3jICDYHyipOZDHQjcgX3Yy6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
+  "projectFilePath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\victor.geraldo\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
