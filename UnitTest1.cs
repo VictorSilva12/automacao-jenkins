@@ -2,16 +2,34 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.Collections.Generic;
+using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
 using System;
 //https://chromedriver.chromium.org/ documentação do chromedriver
 namespace NUnitTest
 {
+    [TestFixture]
     public class Tests
     {
         public IWebDriver googleWebdriver;
 
         public String urlBase;
-    
+
+        public ExtentReports reports;
+        public ExtentTest test;
+
+        [OneTimeSetUp]
+        public void ExtentStart(){
+            
+            reports = new ExtentReports();
+            var htmlReporter = new ExtentHtmlReporter(@"\\...");
+            reports.AttachReporter(htmlReporter);
+        }
+
+        [OneTimeTearDown]
+        public void ExtentClose(){
+            reports.Flush();
+        }
         //[OneTimeSetUp]
         //metodo abaixo realizará a configuração inicial do teste
         //o termo OneTimeSetUp identifica o metodo que será chamado imediatamente uma unica vez
@@ -50,14 +68,20 @@ namespace NUnitTest
         public void Test1()
         {
             try{
+                test = reports.CreateTest("Test1").Info("Teste Iniciou");
+                test.Log(Status.Info, "Chromer Browser Iniciado");
                 googleWebdriver.Navigate().GoToUrl(urlBase+"COVID-19");
+                test.Log(Status.Info, "Navegando até url definida");
                 IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
                 string stringTitulo = titulo.Text;
-                Assert.AreEqual("COVID-19", stringTitulo);
+                test.Log(Status.Info, "Titulo da pagina capturado");
+                Assert.AreEqual("COVID-190", stringTitulo);
+                test.Log(Status.Pass, "Test1 validado, OK");
                 
             }
             
             catch(Exception e){
+                test.Log(Status.Fail, "Test1 validado, Erro");
                 Console.WriteLine(e.ToString());
             }
         }      
