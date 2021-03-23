@@ -20,7 +20,7 @@ pipeline{
         }
         stage ('Testing'){
             steps{
-                sh 'dotnet test --filter Test1'
+                sh 'dotnet test'
             }
         }
     }
