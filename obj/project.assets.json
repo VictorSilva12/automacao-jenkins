@@ -1564,7 +1564,7 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/87.0.4280.8800": {
+      "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -4963,10 +4963,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/87.0.4280.8800": {
-      "sha512": "7bgZ2QNhYFofxDdlGVfUVgNJ6B785u/UeoFjEzB7O2EiggPitosPqqB/TG0KpJwvqgQTs+nNJus3rn9yNMHa1A==",
+    "Selenium.WebDriver.ChromeDriver/89.0.4389.2300": {
+      "sha512": "/lnt6U3hogvJtFBP9l9Vm3F7zVBTClCANeVzcyWwyUf/uW686KEgGU+9x6sebstjd02qrmvcP42MKHTID1tq/A==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/87.0.4280.8800",
+      "path": "selenium.webdriver.chromedriver/89.0.4389.2300",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4976,7 +4976,7 @@
         "driver/mac64/chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.87.0.4280.8800.nupkg.sha512",
+        "selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
@@ -9506,7 +9506,7 @@
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "Selenium.WebDriver >= 3.141.0",
-      "Selenium.WebDriver.ChromeDriver >= 87.0.4280.8800",
+      "Selenium.WebDriver.ChromeDriver >= 89.0.4389.2300",
       "nunit >= 3.12.0"
     ]
   },
@@ -9516,11 +9516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
+      "projectUniqueName": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
       "projectName": "NUnitTest",
-      "projectPath": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
+      "projectPath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\NUnitTest.csproj",
       "packagesPath": "C:\\Users\\victor.geraldo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\obj\\",
+      "outputPath": "c:\\Users\\victor.geraldo\\Documents\\automacao-jenkins\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\victor.geraldo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9563,7 +9563,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[87.0.4280.8800, )"
+            "version": "[89.0.4389.2300, )"
           },
           "nunit": {
             "target": "Package",
