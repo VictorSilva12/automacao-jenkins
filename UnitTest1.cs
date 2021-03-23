@@ -91,7 +91,7 @@ namespace NUnitTest
                 googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
                 IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
                 string stringTitulo = titulo.Text;
-                Assert.AreEqual("Nasa", stringTitulo);
+                Assert.AreEqual("NASA", stringTitulo);
             }
             catch(Exception e){
                 Console.WriteLine(e.Message);
