@@ -157,5 +157,437 @@ namespace NUnitTest
                 Console.WriteLine(e.Message);
             }
         }
+        [Test]
+        public void Test8(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test9(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test10(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test11(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test12(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test13(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test14(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test15(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test16(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test17(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test18(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test19(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test20(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test21(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test22(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test23(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test24(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test25(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test26(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test27(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test28(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test29(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test30(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test31(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test32(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test33(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test34(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test35(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test36(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test37(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test38(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("NASA", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test39(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ritual");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ritual", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test40(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Religião");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Religião", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test41(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Educação");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Educação", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test42(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Conhecimento");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Conhecimento", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
+        [Test]
+        public void Test43(){
+            try{
+                googleWebdriver.Navigate().GoToUrl(urlBase+"Ensino");
+                IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
+                string stringTitulo = titulo.Text;
+                Assert.AreEqual("Ensino", stringTitulo);
+            }
+            catch(Exception e){
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }
