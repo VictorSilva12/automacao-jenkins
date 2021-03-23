@@ -75,7 +75,7 @@ namespace NUnitTest
                 IWebElement titulo = googleWebdriver.FindElement(By.Id("firstHeading"));
                 string stringTitulo = titulo.Text;
                 test.Log(Status.Info, "Titulo da pagina capturado");
-                Assert.AreEqual("COVID-190", stringTitulo);
+                Assert.AreEqual("COVID-19", stringTitulo);
                 test.Log(Status.Pass, "Test1 validado, OK");
                 
             }
@@ -84,7 +84,8 @@ namespace NUnitTest
                 test.Log(Status.Fail, "Test1 validado, Erro");
                 Console.WriteLine(e.ToString());
             }
-        }      
+        }
+        [Test]
         public void Test2(){
             try{
                 googleWebdriver.Navigate().GoToUrl(urlBase+"NASA");
