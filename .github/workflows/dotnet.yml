@@ -24,6 +24,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.x
+    - name: selenoid status
+      run: docker selenoid/chrome:89.0 status
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
