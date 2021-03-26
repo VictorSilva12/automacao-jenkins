@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     services:
       hub:
-        image: selenium/hub
-      chrome:
-        image: selenium/node-chrome
-        env:
-          HUB_HOST: hub
-          HUB_PORT: 4444  
+        image: selenoid/chrome:89.0
+      #chrome:
+        #image: selenium/node-chrome
+        #env:
+          #HUB_HOST: hub
+          #HUB_PORT: 4444  
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
