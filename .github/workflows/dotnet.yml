@@ -10,9 +10,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    services:
-      hub:
-        image: selenoid/chrome:89.0
+    #services:
+      #hub:
+        #image: selenoid/chrome:89.0
       #chrome:
         #image: selenium/node-chrome
         #env:
