@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Chrome;
 using System.Collections.Generic;
 using AventStack.ExtentReports;
@@ -42,7 +43,8 @@ namespace NUnitTest
             var options = new ChromeOptions();
             //options.AddArgument("no-sandbox");//desabilita o modo sandbox do chrome
             options.AddArguments(new List<string>() { "no-sandbox", "headless", "disable-gpu" });
-            googleWebdriver = new ChromeDriver(options);//cria objeto utilzando a classe ChromeDriver
+            //googleWebdriver = new ChromeDriver(options);//cria objeto utilzando a classe ChromeDriver
+            googleWebdriver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub/"), options);
             googleWebdriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             googleWebdriver.Manage().Window.Maximize();//faz com que o navegador fique em tela cheia
             urlBase = "https://pt.wikipedia.org/wiki/";
