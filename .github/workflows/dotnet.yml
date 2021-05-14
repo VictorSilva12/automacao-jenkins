@@ -36,3 +36,10 @@ jobs:
       env:
         SELENIUM_HUB_HOST: 'localhost'
       run: dotnet test --no-build --verbosity normal
+      
+  test:
+    
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Teste async
